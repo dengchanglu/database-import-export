@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd
+                        ">
+    <context:component-scan base-package="*"/>
+    <bean id="Server" class="org.eclipse.jetty.server.Server" init-method="start" destroy-method="stop">
+        <property name="connectors">
+            <list>
+                <bean id="Connector" class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                    <property name="port" value="8080" />
+                </bean>
+            </list>
+        </property>
+
+        <property name="handler">
+            <bean id="handlers" class="org.eclipse.jetty.server.handler.HandlerList">
+                <property name="handlers">
+                    <list>
+                        <bean class="com.google.code.garbagecan.jettystudy.sample4.MyHandler" />
+                        <bean class="org.eclipse.jetty.server.handler.DefaultHandler" />
+                    </list>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+</beans>
