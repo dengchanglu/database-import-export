@@ -12,3 +12,4 @@
 hs_err_pid*
 /database-import-export.iml
 /.idea/
+/target/

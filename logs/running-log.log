@@ -1,0 +1,74 @@
+2017-03-02 17:04:30.319 INFO [main][Start.java:112] - /home/perfection/database-import-export/target/classes/
+2017-03-02 17:04:30.324 INFO [main][WebHandler.java:43] - port:8080,host:localhost,tempDir:/home/perfection/database-import-export/temp,webDir:/home/perfection/database-import-export/target/classes/,logDir:/home/perfection/database-import-export/logs,contextPath:/demo
+2017-03-02 17:04:30.335 INFO [main][Log.java:186] - Logging initialized @636ms
+2017-03-02 17:04:30.404 INFO [main][Server.java:327] - jetty-9.2.9.v20150224
+2017-03-02 17:04:30.512 INFO [main][StandardDescriptorProcessor.java:297] - NO JSP Support for /demo, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2017-03-02 17:04:30.621 INFO [main][ContextHandler.java:2052] - Initializing Spring root WebApplicationContext
+2017-03-02 17:04:31.427 INFO [main][ContextHandler.java:2052] - Initializing Spring FrameworkServlet 'spring-mvc-entry'
+2017-03-02 17:04:31.600 INFO [main][ContextHandler.java:744] - Started o.e.j.w.WebAppContext@602918a{/demo,file:/home/perfection/database-import-export/target/classes/,AVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:04:31.602 INFO [main][NCSARequestLog.java:230] - Opened /home/perfection/database-import-export/logs/yyyy-mm-dd.log
+2017-03-02 17:04:31.608 INFO [main][AbstractConnector.java:266] - Started ServerConnector@3b3bdd0e{HTTP/1.1}{localhost:8080}
+2017-03-02 17:04:31.608 INFO [main][Server.java:379] - Started @1910ms
+2017-03-02 17:06:05.626 INFO [Thread-1][AbstractConnector.java:306] - Stopped ServerConnector@3b3bdd0e{HTTP/1.1}{localhost:8080}
+2017-03-02 17:06:05.626 INFO [Thread-1][ContextHandler.java:2052] - Destroying Spring FrameworkServlet 'spring-mvc-entry'
+2017-03-02 17:06:05.630 INFO [Thread-1][ContextHandler.java:2052] - Closing Spring root WebApplicationContext
+2017-03-02 17:06:05.634 INFO [Thread-1][ContextHandler.java:865] - Stopped o.e.j.w.WebAppContext@602918a{/demo,file:/home/perfection/database-import-export/target/classes/,UNAVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:13:54.821 INFO [main][Start.java:112] - /home/perfection/database-import-export/target/classes/
+2017-03-02 17:13:54.826 INFO [main][WebHandler.java:43] - port:8080,host:localhost,tempDir:/home/perfection/database-import-export/temp,webDir:/home/perfection/database-import-export/target/classes/,logDir:/home/perfection/database-import-export/logs,contextPath:/demo
+2017-03-02 17:13:54.839 INFO [main][Log.java:186] - Logging initialized @901ms
+2017-03-02 17:13:54.933 INFO [main][Server.java:327] - jetty-9.2.9.v20150224
+2017-03-02 17:13:55.065 INFO [main][StandardDescriptorProcessor.java:297] - NO JSP Support for /demo, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2017-03-02 17:13:55.095 INFO [main][ContextHandler.java:744] - Started o.e.j.w.WebAppContext@28ae9169{/demo,file:/home/perfection/database-import-export/target/classes/,AVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:13:55.109 INFO [main][NCSARequestLog.java:230] - Opened /home/perfection/database-import-export/logs/yyyy-mm-dd.log
+2017-03-02 17:13:55.126 INFO [main][AbstractConnector.java:266] - Started ServerConnector@6ac87e65{HTTP/1.1}{localhost:8080}
+2017-03-02 17:13:55.127 INFO [main][Server.java:379] - Started @1189ms
+2017-03-02 17:15:46.373 INFO [Thread-1][AbstractConnector.java:306] - Stopped ServerConnector@6ac87e65{HTTP/1.1}{localhost:8080}
+2017-03-02 17:15:46.376 INFO [Thread-1][ContextHandler.java:865] - Stopped o.e.j.w.WebAppContext@28ae9169{/demo,file:/home/perfection/database-import-export/target/classes/,UNAVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:15:51.661 INFO [main][Start.java:112] - /home/perfection/database-import-export/target/classes/
+2017-03-02 17:15:51.666 INFO [main][WebHandler.java:43] - port:8080,host:localhost,tempDir:/home/perfection/database-import-export/temp,webDir:/home/perfection/database-import-export/target/classes/,logDir:/home/perfection/database-import-export/logs,contextPath:/demo
+2017-03-02 17:15:51.681 INFO [main][Log.java:186] - Logging initialized @558ms
+2017-03-02 17:15:51.775 INFO [main][Server.java:327] - jetty-9.2.9.v20150224
+2017-03-02 17:15:51.873 INFO [main][StandardDescriptorProcessor.java:297] - NO JSP Support for /demo, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2017-03-02 17:15:51.940 INFO [main][ContextHandler.java:744] - Started o.e.j.w.WebAppContext@591882e6{/demo,file:/home/perfection/database-import-export/target/classes/,AVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:15:51.953 INFO [main][NCSARequestLog.java:230] - Opened /home/perfection/database-import-export/logs/yyyy-mm-dd.log
+2017-03-02 17:15:51.967 INFO [main][AbstractConnector.java:266] - Started ServerConnector@4e08b89d{HTTP/1.1}{localhost:8080}
+2017-03-02 17:15:51.967 INFO [main][Server.java:379] - Started @845ms
+2017-03-02 17:23:22.992 INFO [Thread-1][AbstractConnector.java:306] - Stopped ServerConnector@4e08b89d{HTTP/1.1}{localhost:8080}
+2017-03-02 17:23:22.995 INFO [Thread-1][ContextHandler.java:865] - Stopped o.e.j.w.WebAppContext@591882e6{/demo,file:/home/perfection/database-import-export/target/classes/,UNAVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:23:27.636 INFO [main][Start.java:112] - /home/perfection/database-import-export/target/classes/
+2017-03-02 17:23:27.643 INFO [main][WebHandler.java:43] - port:8080,host:localhost,tempDir:/home/perfection/database-import-export/temp,webDir:/home/perfection/database-import-export/target/classes/,logDir:/home/perfection/database-import-export/logs,contextPath:/demo
+2017-03-02 17:23:27.655 INFO [main][Log.java:186] - Logging initialized @586ms
+2017-03-02 17:23:27.725 INFO [main][Server.java:327] - jetty-9.2.9.v20150224
+2017-03-02 17:23:27.834 INFO [main][StandardDescriptorProcessor.java:297] - NO JSP Support for /demo, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2017-03-02 17:23:27.902 INFO [main][ContextHandler.java:744] - Started o.e.j.w.WebAppContext@2dbeb87c{/demo,file:/home/perfection/database-import-export/target/classes/,AVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:23:27.905 INFO [main][NCSARequestLog.java:230] - Opened /home/perfection/database-import-export/logs/yyyy-mm-dd.log
+2017-03-02 17:23:27.913 INFO [main][AbstractConnector.java:266] - Started ServerConnector@65bad9fe{HTTP/1.1}{localhost:8080}
+2017-03-02 17:23:27.914 INFO [main][Server.java:379] - Started @845ms
+2017-03-02 17:23:53.831 INFO [Thread-1][AbstractConnector.java:306] - Stopped ServerConnector@65bad9fe{HTTP/1.1}{localhost:8080}
+2017-03-02 17:23:53.834 INFO [Thread-1][ContextHandler.java:865] - Stopped o.e.j.w.WebAppContext@2dbeb87c{/demo,file:/home/perfection/database-import-export/target/classes/,UNAVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:23:56.647 INFO [main][Start.java:112] - /home/perfection/database-import-export/target/classes/
+2017-03-02 17:23:56.655 INFO [main][WebHandler.java:43] - port:8080,host:localhost,tempDir:/home/perfection/database-import-export/temp,webDir:/home/perfection/database-import-export/target/classes/,logDir:/home/perfection/database-import-export/logs,contextPath:/demo
+2017-03-02 17:23:56.665 INFO [main][Log.java:186] - Logging initialized @621ms
+2017-03-02 17:23:56.741 INFO [main][Server.java:327] - jetty-9.2.9.v20150224
+2017-03-02 17:23:56.830 INFO [main][StandardDescriptorProcessor.java:297] - NO JSP Support for /demo, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2017-03-02 17:23:56.896 INFO [main][ContextHandler.java:2052] - Initializing Spring root WebApplicationContext
+2017-03-02 17:23:57.774 INFO [main][ContextHandler.java:2052] - Initializing Spring FrameworkServlet 'spring-mvc-entry'
+2017-03-02 17:23:57.942 INFO [main][ContextHandler.java:744] - Started o.e.j.w.WebAppContext@6e0f5bef{/demo,file:/home/perfection/database-import-export/target/classes/,AVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:23:57.944 INFO [main][NCSARequestLog.java:230] - Opened /home/perfection/database-import-export/logs/yyyy-mm-dd.log
+2017-03-02 17:23:57.950 INFO [main][AbstractConnector.java:266] - Started ServerConnector@437bbcd6{HTTP/1.1}{localhost:8080}
+2017-03-02 17:23:57.951 INFO [main][Server.java:379] - Started @1908ms
+2017-03-02 17:26:55.762 INFO [Thread-1][AbstractConnector.java:306] - Stopped ServerConnector@437bbcd6{HTTP/1.1}{localhost:8080}
+2017-03-02 17:26:55.763 INFO [Thread-1][ContextHandler.java:2052] - Destroying Spring FrameworkServlet 'spring-mvc-entry'
+2017-03-02 17:26:55.768 INFO [Thread-1][ContextHandler.java:2052] - Closing Spring root WebApplicationContext
+2017-03-02 17:26:55.771 INFO [Thread-1][ContextHandler.java:865] - Stopped o.e.j.w.WebAppContext@6e0f5bef{/demo,file:/home/perfection/database-import-export/target/classes/,UNAVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:50:46.976 INFO [main][Start.java:112] - /home/perfection/database-import-export/target/classes/
+2017-03-02 17:50:46.984 INFO [main][WebHandler.java:43] - port:8080,host:localhost,tempDir:/home/perfection/database-import-export/temp,webDir:/home/perfection/database-import-export/target/classes/,logDir:/home/perfection/database-import-export/logs,contextPath:/demo
+2017-03-02 17:50:46.995 INFO [main][Log.java:186] - Logging initialized @552ms
+2017-03-02 17:50:47.071 INFO [main][Server.java:327] - jetty-9.2.9.v20150224
+2017-03-02 17:50:47.142 INFO [main][StandardDescriptorProcessor.java:297] - NO JSP Support for /demo, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2017-03-02 17:50:47.176 INFO [main][ContextHandler.java:744] - Started o.e.j.w.WebAppContext@2b6a925c{/demo,file:/home/perfection/database-import-export/target/classes/,AVAILABLE}{/home/perfection/database-import-export/target/classes/}
+2017-03-02 17:50:47.191 INFO [main][NCSARequestLog.java:230] - Opened /home/perfection/database-import-export/logs/yyyy-mm-dd.log
+2017-03-02 17:50:47.221 INFO [main][AbstractConnector.java:266] - Started ServerConnector@f48c4dc{HTTP/1.1}{localhost:8080}
+2017-03-02 17:50:47.221 INFO [main][Server.java:379] - Started @779ms
+2017-03-02 17:52:06.334 INFO [Thread-1][AbstractConnector.java:306] - Stopped ServerConnector@f48c4dc{HTTP/1.1}{localhost:8080}
+2017-03-02 17:52:06.336 INFO [Thread-1][ContextHandler.java:865] - Stopped o.e.j.w.WebAppContext@2b6a925c{/demo,file:/home/perfection/database-import-export/target/classes/,UNAVAILABLE}{/home/perfection/database-import-export/target/classes/}
