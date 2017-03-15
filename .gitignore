@@ -13,3 +13,6 @@ hs_err_pid*
 /database-import-export.iml
 /.idea/
 /target/
+/src/main/webapp/.tmp/
+/src/main/webapp/bower_components/
+/src/main/webapp/node_modules/

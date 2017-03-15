@@ -31,6 +31,7 @@ public class AuthenticationController {
     @RequestMapping(value = "/saveAuthenticationPhoneData",method = {RequestMethod.POST,RequestMethod.GET})
     @ResponseBody
     public boolean saveAuthenticationPhoneData(HttpServletRequest request, @RequestBody ParamVo vo) {
+
         log.info("处理请求中");
         try {
             List<Object> authenticationVos = FileUtil.analysisAuthenticationPhoneInfoFile(vo.getFilePath());

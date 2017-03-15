@@ -54,7 +54,7 @@ public class JettyWebStart {
         wac.setOverrideDescriptor("src/main/webapp/WEB-INF/web.xml");
         wac.setClassLoader(Thread.currentThread().getContextClassLoader());
         wac.setResourceBase("src/main/webapp");
-        System.out.println(wac.getContextPath());
+        System.out.println(wac.getResourceAliases());
 
 
         //HTTP请求处理树(现在使用的默认)
