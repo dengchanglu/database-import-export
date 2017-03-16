@@ -15,13 +15,15 @@
     'DIE.pages.tables',
     'DIE.pages.charts',
     'DIE.pages.maps',
-    'DIE.pages.profile'
+    'DIE.pages.profile',
+    'DIE.pages.user'
+
   ])
       .config(routeConfig);
 
   /** @ngInject */
   function routeConfig($urlRouterProvider, baSidebarServiceProvider) {
-    $urlRouterProvider.otherwise('/dashboard');
+    // $urlRouterProvider.otherwise('/dashboard');
 
     baSidebarServiceProvider.addStaticItem({
       title: 'Pages',
@@ -29,7 +31,8 @@
       subMenu: [{
         title: '登陆',
         fixedHref: 'auth.html',
-        blank: true
+        blank: true,
+        controller:"authCtr"
       }, {
         title: '注册',
         fixedHref: 'reg.html',

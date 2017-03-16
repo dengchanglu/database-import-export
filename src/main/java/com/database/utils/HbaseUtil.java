@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by perfection on 17-3-2.
+ * Created by 邓昌路 on 17-3-2.
  */
 public class HbaseUtil {
     private static final Logger logger = LoggerFactory.getLogger(HbaseUtil.class);

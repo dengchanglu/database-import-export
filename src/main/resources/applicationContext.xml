@@ -17,6 +17,23 @@
     <mvc:annotation-driven />
     <aop:aspectj-autoproxy />
 
+    <bean id="system_config"
+          class="com.database.utils.CustomPropertyConfigurer">
+        <property name="ignoreResourceNotFound" value="true" />
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
+        <property name="locations">
+            <list>
+                <!--开发环境配置-->
+                <value>classpath:conf/database.properties</value>
+
+                <!--测试环境配置-->
+
+                <!--生产环境配置-->
+
+            </list>
+        </property>
+    </bean>
+
 
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
 

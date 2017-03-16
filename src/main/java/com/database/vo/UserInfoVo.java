@@ -7,12 +7,14 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * Created by perfection on 17-3-15.
+ * Created by 邓昌路 on 17-3-15.
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserInfoVo implements Serializable{
+
+    private String id;
 
     private String account;//账号
 
@@ -31,6 +33,14 @@ public class UserInfoVo implements Serializable{
     private String briefIntroduction;//个人简介
 
     private String headPortraitUrl;//头像URL地址
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getAccount() {
         return account;

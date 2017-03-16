@@ -3,7 +3,7 @@ package com.database.utils;
 import com.database.enums.OSType;
 
 /**
- * Created by perfection on 17-3-2.
+ * Created by 邓昌路 on 17-3-2.
  */
 public class OSUtil {
     private static String OS = System.getProperty("os.name").toLowerCase();

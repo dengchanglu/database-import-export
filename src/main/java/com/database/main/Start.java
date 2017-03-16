@@ -23,6 +23,7 @@ import java.util.Properties;
 
 /**
  * Created by perfection on 17-2-28.
+ * 已经废弃,请使用JettyWebStart
  */
 public class Start {
 

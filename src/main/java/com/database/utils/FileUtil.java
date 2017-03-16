@@ -19,7 +19,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by perfection on 17-3-1.
+ * Created by 邓昌路 on 17-3-1.
  */
 public class FileUtil {
     private static Logger logger = LoggerFactory.getLogger(FileUtil.class);

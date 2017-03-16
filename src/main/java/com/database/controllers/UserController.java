@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by perfection on 17-3-15.
+ * Created by 邓昌路 on 17-3-15.
  */
 @Controller
 public class UserController {
@@ -33,5 +33,12 @@ public class UserController {
     public UserInfoVo login(HttpServletRequest request, @RequestBody UserInfoVo vo) {
         log.info("登陆信息---账号:"+vo.getAccount()+"  密码:"+vo.getPassword());
         return userService.login(vo.getAccount(),vo.getPassword());
+    }
+
+    @RequestMapping(value = "/register",method = {RequestMethod.POST,RequestMethod.GET})
+    @ResponseBody
+    public UserInfoVo register(HttpServletRequest request, @RequestBody UserInfoVo vo) {
+        log.info("注册信息---账号:"+vo.getAccount()+"  密码:"+vo.getPassword()+"  用户名:"+vo.getUserName());
+        return userService.register(vo);
     }
 }

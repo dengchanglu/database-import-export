@@ -1,7 +1,7 @@
 package com.database.exceptions;
 
 /**
- * Created by perfection on 17-2-28.
+ * Created by 邓昌路 on 17-2-28.
  */
 public class DIEException extends RuntimeException{
 
@@ -9,9 +9,13 @@ public class DIEException extends RuntimeException{
 
     public static final DIEException SYSTEM_ERROR = new DIEException(1000, "系统异常");
 
-    public static final DIEException USER_INFO_LOGIN_ACCOUNT_NULL = new DIEException(1101, "登陆账号为空");
+    public static final DIEException USER_INFO_LOGIN_PARAM_NULL = new DIEException(1101, "登陆参数异常");
 
-    public static final DIEException USER_INFO_LOGIN_PASSWORD_NULL = new DIEException(1102, "登陆密码为空");
+    public static final DIEException USER_INFO_REGISTER_NULL = new DIEException(1102, "注册参数异常");
+
+    public static final DIEException USER_INFO_LOGIN_QUERY_NULL = new DIEException(1103, "账号不存在");
+
+    public static final DIEException USER_INFO_LOGIN_QUERY_ERROR = new DIEException(1104, "密码错误");
 
     /**
      * 异常信息

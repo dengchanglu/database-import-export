@@ -1,7 +1,7 @@
 package com.database.enums;
 
 /**
- * Created by perfection on 17-3-2.
+ * Created by 邓昌路 on 17-3-2.
  */
 public enum OSType {
 

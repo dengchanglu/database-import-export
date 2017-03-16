@@ -20,7 +20,7 @@ import org.apache.hadoop.hbase.io.encoding.DataBlockEncoding;
 import org.apache.hadoop.hbase.util.Bytes;
 
 /**
- * Created by perfection on 17-3-1.
+ * Created by 邓昌路 on 17-3-1.
  */
 public class HbaseConnection {
 
@@ -40,11 +40,12 @@ public class HbaseConnection {
         pathList.add("file:/home/dataCollect/config/zk_conf.properties");
 
         Properties bundle = null;
-        try {
-            bundle = PropertyFileReaderHelper.initalPropertyContext(pathList);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            bundle = PropertyFileReaderHelper.initalPropertyContext(pathList);
+
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
 //        String quorum = bundle.getProperty("hbase.zookeeper.quorum");
 //        String clientPort = bundle.getProperty("hbase.zookeeper.property.clientPort");
