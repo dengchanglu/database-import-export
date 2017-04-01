@@ -9,12 +9,12 @@
       .directive('pageTop', pageTop);
 
   /** @ngInject */
-  function pageTop(URL,$http) {
+  function pageTop($http) {
     return {
       restrict: 'E',
       templateUrl: 'app/theme/components/pageTop/pageTop.html',
       link:function(){
-        $http.post(URL+"");
+        // $http.post(URL+"");
       }
     };
   }

@@ -21,6 +21,7 @@ import java.util.List;
  * Created by 邓昌路 on 17-3-15.
  */
 @Controller
+@RequestMapping("/api/user")
 public class UserController {
 
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
@@ -35,9 +36,10 @@ public class UserController {
         return userService.login(vo.getAccount(),vo.getPassword());
     }
 
-    @RequestMapping(value = "/register",method = {RequestMethod.POST,RequestMethod.GET})
+    @RequestMapping(value = "/register.do",method = {RequestMethod.POST,RequestMethod.GET})
     @ResponseBody
     public UserInfoVo register(HttpServletRequest request, @RequestBody UserInfoVo vo) {
+        System.out.println("连接over");
         log.info("注册信息---账号:"+vo.getAccount()+"  密码:"+vo.getPassword()+"  用户名:"+vo.getUserName());
         return userService.register(vo);
     }

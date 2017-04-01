@@ -37,9 +37,9 @@ public class UserServiceImpl implements UserService{
     }
 
     public UserInfoVo register(UserInfoVo vo) throws DIEException{
-        if(null==vo.getAccount()||null==vo.getEmail()||null==vo.getPassword()){
-            throw DIEException.USER_INFO_REGISTER_NULL;
-        }
+//        if(null==vo.getAccount()||null==vo.getEmail()||null==vo.getPassword()){
+//            throw DIEException.USER_INFO_REGISTER_NULL;
+//        }
         if(databaseDao.saveIndex(vo)){
          return vo;
         }

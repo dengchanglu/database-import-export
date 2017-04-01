@@ -6,7 +6,7 @@
   'use strict';
 
   angular.module('DIE.pages.dashboard', [])
-      .config(routeConfig);
+      .config(routeConfig).controller("dashboardCtr",dashboardCtr);
 
   /** @ngInject */
   function routeConfig($stateProvider) {
@@ -19,7 +19,13 @@
             icon: 'ion-android-home',
             order: 0,
           },
+            controller:"dashboardCtr"
         });
+  }
+
+  function dashboardCtr($location) {
+      console.log("进入首页检测")
+      // $location.path("/login")
   }
 
 })();

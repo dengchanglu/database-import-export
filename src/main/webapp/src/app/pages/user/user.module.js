@@ -9,12 +9,13 @@
 
     /** @ngInject */
     function routeConfig($stateProvider) {
+        console.log("进入USER路由控制器");
         $stateProvider
             .state('login', {
                 url: '/login',
                 title: '登陆',
                 templateUrl: 'app/pages/user/login.html',
-                // controller: 'loginCtrl'
+                controller: 'loginCtrl'
             })
             .state('register', {
                 url: '/register',

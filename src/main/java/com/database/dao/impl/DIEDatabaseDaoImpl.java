@@ -18,6 +18,7 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.poi.ss.formula.functions.T;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -29,6 +30,7 @@ import java.util.List;
 /**
  * Created by perfection on 17-3-16.
  */
+@Repository
 public class DIEDatabaseDaoImpl<T> implements DIEDatabaseDao<T> {
 
     private Class<T> T;

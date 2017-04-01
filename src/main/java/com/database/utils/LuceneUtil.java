@@ -33,13 +33,15 @@ public class LuceneUtil {
         try {
             File file = new File(CustomPropertyConfigurer.getProperty("database.path"));
             if(!file.isDirectory()){
+                System.out.println("创建目录");
                 file.mkdirs();//创建多级目录
             }
             directory = FSDirectory.open(file.toPath());//配置索引数据位置
 
         } catch (IOException e) {
-            log.error(e.getMessage(), e.getCause());
-            throw DIEException.SYSTEM_ERROR;
+//            log.error(e.getMessage(), e.getCause());
+//            throw DIEException.SYSTEM_ERROR;
+            e.printStackTrace();
         }
     }
 
@@ -52,6 +54,7 @@ public class LuceneUtil {
         IndexWriterConfig indexWriterConfig = new IndexWriterConfig(new KeywordAnalyzer());//配置它的分析器
         IndexWriter indexWriter = null;
         try {
+            System.out.println(directory);
             indexWriter = new IndexWriter(directory, indexWriterConfig);
         } catch (IOException e) {
             log.error(e.getMessage(), e.getCause());

@@ -17,6 +17,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -28,6 +29,7 @@ import java.util.List;
 /**
  * Created by 邓昌路 on 17-3-16.
  */
+
 public interface DIEDatabaseDao<T> {
 
     public boolean saveIndex(Object T);
